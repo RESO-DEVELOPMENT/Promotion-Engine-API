@@ -40,10 +40,9 @@ namespace ApplicationCore.Services
                     result = new LoginResponse();
                     string message;
                     int status;
-                    if (account.Role.RoleId != AppConstant.EnvVar.AdminId)
-                    {
+                  
                         account.Password = Common.DecodeFromBase64(account.Password);
-                    }
+                    
                     if (account.Password == userInfo.Password)
                     {
                         UserInfo user = null;

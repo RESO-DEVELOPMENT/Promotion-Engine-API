@@ -67,7 +67,7 @@ namespace Infrastructure.Helper
             public const string EXCLUDE = "1";
             public const string ApplyForAllStore = "Khuyến mãi áp dụng tại tất cả cửa hàng toàn quốc";
             public const int BrandId = 1;
-            public const int AdminId = 2;
+            public const int AdminId =0;
             public const string Admin = "Admin";
             public const string BrandManager = "Brand Manager";
             public const string Success_Message = "Thành công";
